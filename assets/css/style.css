@@ -64,12 +64,15 @@ p {
 .float-left {
     float: left;
     margin-right: 25px;
+    max-height: 200px;
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
 }
+/* max-height added to the float class and removing the img classes which weren't in the html elements to begin with */
 
 .content {
     width: 75%;
@@ -163,7 +166,11 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/* .main-images {
+    max-height: 200px;
+}
+
+.search-engine-optimization-img {
     max-height: 200px;
 }
 
@@ -173,7 +180,7 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
