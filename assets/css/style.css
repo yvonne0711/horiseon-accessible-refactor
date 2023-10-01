@@ -72,7 +72,7 @@ p {
     margin-left: 25px;
     max-height: 200px;
 }
-/* max-height added to the float class and removing the img classes which weren't in the html elements to begin with */
+/* max-height added to the float class and removing the img class for styling. adding it here also controls the max height of the images in the content section */
 
 .content {
     width: 75%;
@@ -91,55 +91,26 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-block {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* all the benefit section divs had the same styling so i add a new class that's shared because multiple elements can share the same class in html*/
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-block h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+/* all the benefit section h3 elements had the same styling so i add a new class that's shared because multiple elements can share the same class in html*/
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-block img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* all the benefit section image tags had the same styling so i add a new class that's shared because multiple elements can share the same class in html*/
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+.content-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -147,55 +118,13 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* all the content section had the same styling so i add a new class that's shared because multiple elements can share the same class in html*/
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* .main-images {
-    max-height: 200px;
-}
-
-.search-engine-optimization-img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
-
-.search-engine-optimization h2 {
+.content-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* all the content section h2 elements had the same styling so i add a new class that's shared because multiple elements can share the same class in html*/
 
 footer {
     padding: 30px;
