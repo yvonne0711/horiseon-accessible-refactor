@@ -4,19 +4,18 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Horiseon Marketing Agency</title>
     <!-- changed title name to a relevant name so the user has more context of the website which is Horiseon's main page and for better SEO -->
+    <title>Horiseon Marketing Agency</title>
 </head>
 
 <body>
-    <header>
     <!-- changed from div class="header" to a header element for a semantic meaning -->
-        <h1>Hori<span id="seo">seo</span>n</h1>
-        <!-- changed span inline element from class to id because it is a unique identifier -->
-        <nav> 
+    <header> 
         <!-- changed from div to nav semantic html element so a developer reading this code can understand this section contains navigation links -->
-            <menu>
+        <!-- changed span inline element from class to id because it is a unique identifier -->
+        <h1>Hori<span id="seo">seo</span>n</h1><nav> 
             <!-- changed from ul element to semantic element to show it's a navigation menu -->
+            <menu>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
@@ -29,18 +28,18 @@
             </menu>
         </nav>
     </header>
+    <!-- changed from div class element to a semantic element, figure, to show it's an image, and also to add an alt attribute for accessibility reasons -->
     <figure>
         <img src="./assets/images/digital-marketing-meeting.jpg" alt="Three men and one woman sitting around a table in a meeting room, one of the men stood up bending over the table, a whiteboard behind him. They have a laptop and glasses of water and documents of paper on the table, seeming to be deliberating in a meeting."/>
     </figure>
-    <!-- changed from div class element to a semantic element, figure, to show it's an image, and also to add an alt attribute for accessibility reasons -->
-    <section class="content">
     <!-- changed from a div element to a section element to show it's a content section of the site -->
-        <div id="search-engine-optimization" class="content-section">
+    <section class="content">
         <!-- added unique id so the link works on click with the href above -->
         <!-- note for self: name of the class to style the section -->
         <!-- the class is now shared between each content topic and has been changed to benefit block so the css file uses the dry principle of coding i.e. more efficient code in less lines -->
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="An image of laptop, cup of coffee, a pen holder with a bunch of colourful pens and a notebook with a mindmap drawn in the middle of the page with the words 'SEO' and ideas branching out of the bubble, all on a wooden table."/>
+        <div id="search-engine-optimization" class="content-section">
             <!-- add alt attributes to the img tags to explain the image. this is used if the image doesn't load and is also a principle of web accessibility. it allows users to read the information about on-page images -->
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="An image of laptop, cup of coffee, a pen holder with a bunch of colourful pens and a notebook with a mindmap drawn in the middle of the page with the words 'SEO' and ideas branching out of the bubble, all on a wooden table."/>
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
@@ -61,10 +60,10 @@
             </p>
         </div>
     </section>
-    <section class="benefits">
     <!-- changed from a div element to a section element to show it's a content section of the site -->
-        <div class="benefit-block">
+    <section class="benefits">
         <!-- the class is now shared between each benefit topic and has been changed to benefit block so the css file uses the dry principle of coding i.e. more efficient code in less lines -->
+        <div class="benefit-block">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="An icon of half a gear clog with a downwards arrow inside an upside down triangle below the cog and a circle with a dollar sign below that."/>
             <p>
@@ -80,17 +79,17 @@
         </div>
         <div class="benefit-block">
             <h3>Cost Management</h3>
+            <!-- removed the closing img tag as its not needed -->
             <img src="./assets/images/cost-management.png" alt="An icon with a gear cog in the background and two black circles with dollar signs at the side of the cog whilst a transparent cog with a dollar sign is brought forward."/>
-            <!-- remove the closing img tag as its not needed -->
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
     </section>
-    <footer>
     <!-- changed from div class="footer" to a footer element for a semantic meaning -->
-        <h4>Made with ❤️️ by Horiseon</h4>
+    <footer>
         <!-- heading attribute in sequential order. changed from h2 to h4 -->
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>

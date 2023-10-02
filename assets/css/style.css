@@ -20,10 +20,10 @@ header h1 {
     font-size: 48px;
 }
 
+/* unique id attribute */
 header h1 #seo {
     color: #d9dcd6;
 }
-/* unique id attribute */
 
 header nav {
     padding-top: 15px;
@@ -33,14 +33,14 @@ header nav {
     font-size: 20px;
 }
 
+/* changed all header selectors to nav replacing div which was the html element for the navigation bar in index.html */
+/* changed from a .header class to the header element to match the tag name used in HTML before*/
+/* removed unnecessary header nav menu styling and added here as li is a child element */
 header nav menu li {
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
 }
-/* changed all header selectors to nav replacing div which was the html element for the navigation bar in index.html */
-/* changed from a .header class to the header element to match the tag name used in HTML before*/
-/* removed unnecessary header nav menu styling and added here as li is a child element */
 
 a {
     color: #ffffff;
@@ -65,6 +65,7 @@ figure img {
     object-fit: cover; /* covers the container whilst resizing the image keeping the aspect ratio so the image clips to fit */
 }
 
+/* max-height added to the float class and removing the img class for styling. adding it here also controls the max height of the images in the content section */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -76,7 +77,6 @@ figure img {
     margin-left: 25px;
     max-height: 200px;
 }
-/* max-height added to the float class and removing the img class for styling. adding it here also controls the max height of the images in the content section */
 
 .content {
     width: 75%;
@@ -95,25 +95,26 @@ figure img {
     background-color: #2589bd;
 }
 
+/* all the benefit section divs had the same styling so i add a new class that's shared because multiple elements can share the same class in html*/
 .benefit-block {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* all the benefit section divs had the same styling so i add a new class that's shared because multiple elements can share the same class in html*/
 
+/* all the benefit section h3 elements had the same styling so i add a new class that's shared because multiple elements can share the same class in html*/
 .benefit-block h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* all the benefit section h3 elements had the same styling so i add a new class that's shared because multiple elements can share the same class in html*/
 
+/* all the benefit section image tags had the same styling so i add a new class that's shared because multiple elements can share the same class in html*/
 .benefit-block img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* all the benefit section image tags had the same styling so i add a new class that's shared because multiple elements can share the same class in html*/
 
+/* all the content section had the same styling so i add a new class that's shared because multiple elements can share the same class in html*/
 .content-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -122,14 +123,15 @@ figure img {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* all the content section had the same styling so i add a new class that's shared because multiple elements can share the same class in html*/
 
+/* all the content section h2 elements had the same styling so i add a new class that's shared because multiple elements can share the same class in html*/
 .content-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* all the content section h2 elements had the same styling so i add a new class that's shared because multiple elements can share the same class in html*/
 
+/* changed from a footer class to a footer element as the h4 tag was used in a div element before*/
+/* changed from h2 to h4 to match the html footer element */
 footer {
     padding: 30px;
     clear: both;
@@ -140,5 +142,3 @@ footer {
 footer h4 {
     font-size: 20px;
 }
-/* changed from a footer class as the h4 tag was used in a div element before*/
-/* changed from h2 to h4 to match the html footer element */
