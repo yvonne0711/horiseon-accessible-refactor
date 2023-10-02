@@ -20,9 +20,10 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 #seo {
     color: #d9dcd6;
 }
+/* unique id attribute */
 
 header nav {
     padding-top: 15px;
@@ -32,14 +33,14 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul li {
+header nav menu li {
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
 }
 /* changed all header selectors to nav replacing div which was the html element for the navigation bar in index.html */
 /* changed from a .header class to the header element to match the tag name used in HTML before*/
-/* removed unnecessary header nav ul styling and added here as li is a child element */
+/* removed unnecessary header nav menu styling and added here as li is a child element */
 
 a {
     color: #ffffff;
@@ -50,13 +51,18 @@ p {
     font-size: 16px;
 }
 
-.hero {
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+figure img {
+    width: 100%;
+    height: 100%; /* the image fills the figure container*/
+    object-fit: cover; /* covers the container whilst resizing the image keeping the aspect ratio so the image clips to fit */
 }
 
 .float-left {

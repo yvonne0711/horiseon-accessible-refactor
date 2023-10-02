@@ -11,10 +11,12 @@
 <body>
     <header>
     <!-- changed from div class="header" to a header element for a semantic meaning -->
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <h1>Hori<span id="seo">seo</span>n</h1>
+        <!-- changed span inline element from class to id because it is a unique identifier -->
         <nav> 
         <!-- changed from div to nav semantic html element so a developer reading this code can understand this section contains navigation links -->
-            <ul>
+            <menu>
+            <!-- changed from ul element to semantic element to show it's a navigation menu -->
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
@@ -24,10 +26,13 @@
                 <li>
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
-            </ul>
+            </menu>
         </nav>
     </header>
-    <div class="hero"></div>
+    <figure>
+        <img src="./assets/images/digital-marketing-meeting.jpg" alt="Three men and one woman sitting around a table in a meeting room, one of the men stood up bending over the table, a whiteboard behind him. They have a laptop and glasses of water and documents of paper on the table, seeming to be deliberating in a meeting."/>
+    </figure>
+    <!-- changed from div class element to a semantic element, figure, to show it's an image, and also to add an alt attribute for accessibility reasons -->
     <div class="content">
         <div id="search-engine-optimization" class="content-section">
         <!-- added unique id so the link works on click with the href above -->
