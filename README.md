@@ -19,7 +19,7 @@ This project is to refactor Horiseon's site to make it more accessible for users
 
 The following image shows the web application's appearance and functionality:
 
-![The Horiseon webpage includes a navigation bar, a background image, and then a content section with text and images below as well as a benefit section at the side of that.](assets\horiseon-refactoring-img.png)
+![The Horiseon webpage includes a navigation bar, a background image, and then a content section with text and images below as well as a benefit section at the side of that.](assets/horiseon-refactoring-img.png)
 
 ### Website
 Deployed application: https://yvonne0711.github.io/horiseon-accessible-refactor/
